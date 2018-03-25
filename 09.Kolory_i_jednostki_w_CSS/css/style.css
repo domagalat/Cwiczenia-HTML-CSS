@@ -1,0 +1,63 @@
+/* style css */
+
+.sp0{
+    color: blue;
+}
+
+.sp1{
+    color: red;
+}
+
+.sp2{
+    color: green;
+}
+
+.d1{
+    background: #dddddd;
+}
+
+.d2{
+    background: #4bb3bb;
+}
+
+.d3{
+    background-color: rgba(255, 195, 160, .25);
+}
+
+.d4{
+    background-color: rgba(40, 233, 175, .25);
+}
+
+.dv5{
+    background-color: hsla(0, 100%, 25%, 1);
+}
+
+.container{
+    background-color: darkorange;
+    width: 200px;
+}
+
+.container>.p1{
+    background-color: aqua;
+    width: 50%;
+}
+
+.container>.p2{
+    background-color: blue;
+    width: 20%;
+}
+
+.container1{
+    background-color: darkorange;
+    width: 12.5em; /* 1em to 16px */
+}
+
+.container1>.p11{
+    background-color: aqua;
+    width: 6.25em;
+}
+
+.container1>.p22{
+    background-color: blue;
+    width: 2.5em;
+}

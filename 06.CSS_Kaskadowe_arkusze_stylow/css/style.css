@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+
+#p1{
+    color: orange; /* ustawiłem pomarańczowy żeby był widoczny */
+}
+
+#p2{
+    color: darkviolet;
+}
+
+.brazowy{
+    color: brown;
+}
+
+.block{
+    border: solid;
+}

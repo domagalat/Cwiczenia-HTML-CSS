@@ -1,0 +1,62 @@
+/* style CSS */
+
+a{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+p{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+h1, h2, h3{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+.divmoj{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+span, em, strong, u, ul, ol{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+table{
+    color: red;
+    border: 1px solid black;
+    width: 500px;
+}
+
+img{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+iframe{
+    color: red;
+    border: 1px solid red;
+    width: 500px;
+}
+
+#tabela, tr, td{
+    color: black;
+    border: 2px solid black;
+    width: auto;
+}
+
+th{
+    color: black;
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+}

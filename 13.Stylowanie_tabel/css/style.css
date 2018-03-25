@@ -1,0 +1,13 @@
+/* Style css */
+
+th{
+    background-color: darkblue;
+    color: white;
+    font-weight: 700;
+}
+
+table, td, th{
+    border: 1px solid black; 
+    border-spacing: 10px; /* border-spacing sprawia że każda komórka ma oddzielny border i są oddalone od siebie o 10px */
+    border-collapse: collapse; /* dopisany wiersz border-collapse sprawia że bordery komórek są polączone */
+}

@@ -1,0 +1,11 @@
+/* Stylowanie list */
+
+ul{
+    list-style-type: square;
+}
+
+.list{
+    display: inline-block;
+    margin: 20px;
+    color: #116493;
+}

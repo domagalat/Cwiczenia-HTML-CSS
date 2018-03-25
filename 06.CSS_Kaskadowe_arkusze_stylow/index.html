@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Kaskadowe arkusze stylów</title>
+    <!-- Po dodaniu stylów do sekcji <head> tło strony zmieniło się na różowe ponieważ kod html czytany jest od góry do dołu, ponad to stylle umieszczone są w sekcji <head> i są one nad sekcją <body> którą chcemy ostylować -->
+    <style>
+        body{
+            background-color: pink;
+        }
+    </style>
+</head>
+<!-- Kolor tła zmienił się na zielony ponieważ ostylowany został bezpośrednio znacznik <body> w kodzie html, który jest czytany od góry do dołu. To co znajduje się najniżej jest ważniejsze --> 
+<body style="background-color: green;">
+    <p id="p1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisi fermentum tortor aliquam mattis. Ut metus quam, consectetur sed posuere a, laoreet in lorem. Aenean ut consequat ligula. Praesent nibh nibh, dapibus vel posuere iaculis, pulvinar vel nisl. Nulla eleifend id nulla non dictum. Fusce iaculis, felis vitae pulvinar tristique, arcu nisl placerat leo, non faucibus justo sapien non tellus. Praesent pulvinar massa elit, eu placerat lacus volutpat quis. Sed ultrices lectus id felis tincidunt sollicitudin. Maecenas a sem diam. Proin imperdiet quam facilisis sem sodales venenatis sodales in erat. Integer tincidunt vulputate erat. Integer ac arcu a velit eleifend pretium. Nullam sit amet tempus odio, non dapibus metus. Donec eget tincidunt mi. Nullam hendrerit lectus ac ante condimentum, et maximus quam tristique.
+    </p>
+    <p id="p2">
+        In sodales hendrerit est in cursus. Integer malesuada est id sapien viverra, non scelerisque neque auctor. Pellentesque egestas mauris in justo ornare ultricies. Cras eleifend pretium semper. Maecenas aliquet lorem ut risus venenatis, vehicula efficitur risus bibendum. Vivamus tempus, lorem vitae volutpat molestie, urna nisi pellentesque sapien, vitae convallis libero felis et diam. Aliquam in elementum felis. Integer nunc sapien, facilisis eu luctus vitae, auctor et neque. Vestibulum porttitor, lectus vitae laoreet sagittis, urna ante auctor neque, eget posuere nisl risus eleifend nulla. Vestibulum sed nibh urna. Sed rutrum pharetra massa, et sollicitudin quam imperdiet non.
+    </p>
+    <p class="brazowy">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at tortor orci. Donec leo est, pellentesque nec porttitor ac, convallis ultricies mauris. Vestibulum congue leo viverra quam laoreet, ut malesuada neque accumsan. Proin iaculis, ante mattis porttitor tincidunt, purus magna pharetra enim, et convallis nulla justo nec leo. Cras cursus urna laoreet elit elementum congue. Nullam et eleifend diam. Etiam at nibh ac ipsum tempor rhoncus ac vitae arcu. Praesent massa magna, interdum nec efficitur sed, consectetur in nibh. Donec ac est arcu. Phasellus bibendum a risus consectetur faucibus. Sed viverra egestas lorem, vitae molestie risus imperdiet eget. Donec accumsan ac urna tincidunt dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ac sem a neque blandit elementum vitae eu orci. Vestibulum eget ex tincidunt, posuere dui vel, interdum neque. Phasellus sagittis euismod nibh, dapibus pulvinar urna.
+    </p>
+    <p class="brazowy">
+        Proin tincidunt lectus ut varius dignissim. Duis et efficitur leo. In ut maximus metus, nec interdum arcu. Suspendisse porttitor turpis vel erat varius, eu cursus neque finibus. Aliquam id tincidunt lorem. Praesent ullamcorper tellus id lectus lobortis, ut dignissim tortor fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur dapibus orci ac mattis congue. Curabitur sit amet sagittis elit. Vestibulum eget ligula eu elit tempus dignissim id eget leo. Aliquam et volutpat velit. Nulla tempus sed arcu eu varius. Nullam ultrices tellus leo, at pretium mauris luctus non. Maecenas ultrices ipsum neque, vitae placerat enim placerat consectetur.
+    </p>
+    <p class="brazowy">
+        Morbi dapibus mollis efficitur. Sed justo dui, aliquam vel vulputate a, interdum vel magna. Sed sollicitudin massa at dui mollis, sit amet bibendum urna aliquet. Mauris sed faucibus ligula, in ornare purus. Pellentesque metus mauris, dignissim in tortor ac, blandit tempor ipsum. Nulla eget ornare risus. Duis rutrum quis elit quis tristique. In eget ex erat. Integer tristique, lacus sed faucibus scelerisque, mauris purus viverra ligula, hendrerit iaculis leo augue vel libero. Donec tristique commodo nisl ac gravida. Suspendisse potenti. Proin sollicitudin ante eget dui tincidunt, id pretium eros ultrices. Curabitur sit amet ultrices massa. Sed vel ex venenatis, pulvinar massa nec, eleifend est. In a interdum massa.
+    </p>
+    <p class="brazowy">
+        Phasellus scelerisque tortor ultrices dui mattis, vel efficitur purus vehicula. Aenean dui ante, euismod tempor accumsan nec, pretium eget tortor. Duis luctus dapibus sollicitudin. Suspendisse vehicula pharetra erat, eu posuere magna mattis eu. Fusce commodo nunc et quam sagittis mollis. Sed dolor ante, tristique vitae purus et, tempus rhoncus nisl. Vestibulum in molestie nibh. In id turpis dictum, placerat leo nec, porttitor enim. Integer molestie arcu eget dolor gravida, tincidunt euismod velit venenatis. Vestibulum ornare fermentum lectus. Fusce interdum massa at mauris lobortis rutrum. Donec orci tellus, gravida non accumsan sed, sollicitudin nec velit. Phasellus luctus eros sapien, nec facilisis massa lobortis et. Aliquam ac sapien non justo accumsan rhoncus vitae vel neque. Nam quis odio tempus, molestie nisi in, pellentesque ligula.
+    </p>
+    <p class="brazowy">
+        Praesent ut vestibulum lacus. Morbi faucibus metus eu mauris malesuada tincidunt. Aenean in sapien nibh. Proin blandit odio felis, suscipit mollis est efficitur molestie. In tellus massa, pulvinar at finibus ultrices, lobortis sit amet turpis. Phasellus volutpat ligula eu rhoncus pulvinar. Nullam lobortis sagittis mauris et laoreet. Sed urna quam, sodales ac justo nec, condimentum tempor nisi. Suspendisse potenti. Donec dui sapien, finibus at lobortis pretium, ullamcorper et metus. Aliquam accumsan vehicula accumsan. Aliquam dictum tristique turpis, vel porta metus. Maecenas ante sem, posuere eu imperdiet at, fringilla a erat. Praesent tristique lacus non odio tempus scelerisque.
+    </p>
+    <p class="brazowy">
+        Quisque in sem bibendum, varius tellus non, posuere augue. Nam at posuere ante. Pellentesque a justo iaculis, convallis purus eget, rutrum nunc. Nullam lectus nunc, molestie et porta at, rutrum quis sapien. Pellentesque et leo ac odio gravida vehicula et non magna. Maecenas nisi nisi, interdum in lorem at, pellentesque ultrices quam. Nullam justo nisi, varius a ante non, ultrices ultrices lectus. Ut condimentum elit congue, tempus massa id, imperdiet magna. Integer id dui mattis, sollicitudin ipsum nec, vestibulum est. Quisque tempus nec odio imperdiet suscipit.
+    </p>
+    <p class="brazowy">
+        Nunc viverra justo eu cursus laoreet. In congue massa enim. In porta justo sed lorem blandit, ac malesuada lectus tincidunt. Aliquam convallis euismod arcu, quis facilisis turpis vestibulum a. Ut nisi leo, scelerisque id lacus nec, molestie sollicitudin lectus. Etiam lacus erat, interdum dignissim condimentum sit amet, maximus ac metus. Sed maximus massa sit amet felis dignissim ornare. Nullam ultrices neque ipsum, laoreet finibus sem efficitur convallis. Nunc volutpat urna id mi rhoncus, in molestie sapien elementum. Maecenas dolor felis, congue ut pulvinar id, feugiat eu quam. Nunc porta dui et risus iaculis tempus. In et viverra arcu, eget blandit erat.
+    </p>
+    <p class="brazowy">
+        Donec id pellentesque ipsum, et fringilla ipsum. Aliquam tincidunt commodo risus, nec ullamcorper est suscipit et. Sed at vestibulum diam. Proin dolor nibh, porta varius eleifend eget, sodales nec ex. Duis vestibulum, odio vel ornare fringilla, ante nisl mollis turpis, nec accumsan neque risus eget nisi. Sed nec eros aliquet, tincidunt orci sed, ornare leo. Donec cursus libero tortor, nec lacinia nisl congue sed.
+    </p>
+    <p class="brazowy">
+        Integer fringilla orci in bibendum dictum. Nunc gravida at massa et posuere. Duis auctor varius sem vel viverra. Donec lobortis placerat leo vitae luctus. Etiam venenatis a diam in sagittis. Donec in velit eget eros placerat gravida. Ut et magna bibendum, posuere est id, vehicula justo. Aliquam hendrerit in nisl vitae efficitur. Pellentesque vel scelerisque libero. Curabitur placerat tempus velit semper auctor. Aliquam sollicitudin metus dignissim, ornare nulla sed, ultrices odio. Donec et ante eu eros egestas fringilla. Mauris in lacus sollicitudin, interdum dui sed, congue nisi. Phasellus viverra nibh elit, nec pellentesque enim malesuada at. Donec lectus felis, auctor et sapien vel, porttitor cursus ex. In et ante tincidunt, semper nunc ac, sagittis mauris.
+    </p>
+    <p class="brazowy">
+        Nulla congue imperdiet nisi, tincidunt aliquet ipsum. Quisque odio nulla, viverra sit amet urna eget, tempor mollis nisl. Phasellus malesuada, mauris sit amet dapibus feugiat, eros est consectetur ex, et aliquam nibh diam quis augue. Proin nec ipsum eu sapien blandit varius at eget massa. Aenean fermentum ullamcorper pretium. Nam ac fermentum neque. Nam magna mi, pellentesque vel tellus ac, sollicitudin imperdiet erat. Donec tristique tincidunt tortor, a placerat enim scelerisque quis. Phasellus ac vestibulum nisl. Donec tristique arcu nulla, non aliquet est gravida in.
+    </p>
+    <div class="block">div 1</div>
+    <div class="block">div 2</div>
+    <div class="block">div 3</div>
+    <div class="block">div 4</div>
+    <div class="block">div 5</div>
+</body>
+</html>

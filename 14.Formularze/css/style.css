@@ -1,0 +1,44 @@
+/* style css */
+
+label{
+    font-size: 26px;
+    color: gray;
+    font-weight: 700;
+}
+input{
+    font-size: 15px;
+    width: 648px;
+}
+
+textarea{
+    font-size: 15px;
+}
+
+.button{
+    width: 130px;
+    height: 30px;
+}
+/* -------------------- */
+
+.label1{
+    font-size: 26px;
+    color: black;
+    font-weight: 700;
+}
+
+.label2{
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+
+.label3{
+    font-size: 22px;
+    color: gray;
+    width: auto;
+}
+
+.input1{
+    width: auto;
+    font-weight: 100;
+}

@@ -1,0 +1,31 @@
+/* style CSS */
+
+.di1{
+    background-color: rgba(249, 189, 0, .4);
+    opacity: .4;
+}
+/* ustawienie przezroczystości w rgba powoduje rozjaśnienie tła czyli tła diva, natomiast opacity ustawia przezroczystość tła i tekstu czyli całego diva */
+.di2{
+    background:  -webkit-linear-gradient(top, rgba(193,226,236,1) 0%, rgba(156,207,222,1) 39%, rgba(104,181,202,1) 100%);
+}
+
+.di3{
+    width: 600px;
+    height: 450px;
+    background-image: url(../images/a1.jpg);
+}
+
+.di4{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/a1.jpg);
+    background-repeat: no-repeat;
+}
+
+.di5{
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/a1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
